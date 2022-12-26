@@ -14,6 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        DBManager.shared.createDataBase()
+        print(DBManager.shared.db_local_path)
+//        DBManager.createCopyOfDatabaseIfNeeded()
+     
         return true
     }
 

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CollectionViewCell" customModule="Dummy_Project" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="164" height="215"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="164" height="215"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="Sbg-V4-5wv">
+                        <rect key="frame" x="0.0" y="0.0" width="164" height="215"/>
+                    </activityIndicatorView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6je-wd-gIV" customClass="CircularProgressBarView" customModule="Dummy_Project" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="164" height="215"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <imageView hidden="YES" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="fah-4n-cdI">
+                        <rect key="frame" x="0.0" y="0.0" width="164" height="215"/>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ltn-97-6zJ">
+                        <rect key="frame" x="77" y="97" width="10.5" height="21"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="fah-4n-cdI" secondAttribute="trailing" id="1Jm-Cy-CDo"/>
+                <constraint firstItem="Ltn-97-6zJ" firstAttribute="height" secondItem="fah-4n-cdI" secondAttribute="height" multiplier="0.0976744" id="Czh-gd-uXW"/>
+                <constraint firstItem="6je-wd-gIV" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="D5Z-HR-TgF"/>
+                <constraint firstItem="Sbg-V4-5wv" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="Gkl-jb-nMO"/>
+                <constraint firstItem="6je-wd-gIV" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="JFg-BU-cgs"/>
+                <constraint firstItem="6je-wd-gIV" firstAttribute="width" secondItem="gTV-IL-0wX" secondAttribute="width" id="NFu-Qy-dTM"/>
+                <constraint firstItem="Ltn-97-6zJ" firstAttribute="centerY" secondItem="fah-4n-cdI" secondAttribute="centerY" id="RpH-Ns-ycj"/>
+                <constraint firstItem="Sbg-V4-5wv" firstAttribute="centerY" secondItem="gTV-IL-0wX" secondAttribute="centerY" id="YQT-RV-JWc"/>
+                <constraint firstItem="Sbg-V4-5wv" firstAttribute="height" secondItem="gTV-IL-0wX" secondAttribute="height" id="Yx2-LK-edR"/>
+                <constraint firstAttribute="bottom" secondItem="fah-4n-cdI" secondAttribute="bottom" id="cnC-nV-kI7"/>
+                <constraint firstItem="fah-4n-cdI" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="dcs-FS-8q3"/>
+                <constraint firstItem="fah-4n-cdI" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="noY-we-RFY"/>
+                <constraint firstItem="Sbg-V4-5wv" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="wUd-bL-4fU"/>
+                <constraint firstItem="6je-wd-gIV" firstAttribute="centerX" secondItem="gTV-IL-0wX" secondAttribute="centerX" id="waK-ZG-nzU"/>
+                <constraint firstItem="Ltn-97-6zJ" firstAttribute="centerX" secondItem="fah-4n-cdI" secondAttribute="centerX" id="xkq-0X-Q5q"/>
+            </constraints>
+            <size key="customSize" width="164" height="215"/>
+            <connections>
+                <outlet property="imageView" destination="fah-4n-cdI" id="lAg-23-58p"/>
+                <outlet property="loader" destination="Sbg-V4-5wv" id="LYn-YT-CEn"/>
+                <outlet property="loaderView" destination="6je-wd-gIV" id="mnP-pW-Lsl"/>
+                <outlet property="percentage" destination="Ltn-97-6zJ" id="tgr-3h-0gH"/>
+            </connections>
+            <point key="canvasLocation" x="220.28985507246378" y="130.24553571428572"/>
+        </collectionViewCell>
+    </objects>
+</document>

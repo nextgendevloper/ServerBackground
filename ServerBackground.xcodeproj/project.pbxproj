@@ -13,9 +13,27 @@
 		B71981E32940A1CE0043A149 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71981E12940A1CE0043A149 /* Main.storyboard */; };
 		B71981E52940A1D30043A149 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B71981E42940A1D30043A149 /* Assets.xcassets */; };
 		B71981E82940A1D30043A149 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B71981E62940A1D30043A149 /* LaunchScreen.storyboard */; };
+		B71982002940A8540043A149 /* DBInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71981F52940A8540043A149 /* DBInterface.swift */; };
+		B71982022940A8540043A149 /* DBManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71981FA2940A8540043A149 /* DBManager.swift */; };
+		B71982072940B95D0043A149 /* StockCategoryModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71982062940B95D0043A149 /* StockCategoryModel.swift */; };
+		B71982092940B9780043A149 /* StockPhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B71982082940B9780043A149 /* StockPhotosModel.swift */; };
+		B719822C294191300043A149 /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = B71982232941912D0043A149 /* FMDatabase.m */; };
+		B719822D294191300043A149 /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = B71982242941912E0043A149 /* FMDatabaseQueue.m */; };
+		B719822E294191300043A149 /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = B71982262941912E0043A149 /* FMDatabasePool.m */; };
+		B719822F294191300043A149 /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = B71982272941912E0043A149 /* FMDatabaseAdditions.m */; };
+		B7198230294191300043A149 /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = B719822B294191300043A149 /* FMResultSet.m */; };
+		B73654C12954229D00171D76 /* Network.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73654BE2954229D00171D76 /* Network.swift */; };
+		B73654C22954229D00171D76 /* StockDownloadManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73654BF2954229D00171D76 /* StockDownloadManager.swift */; };
+		B73654C32954229D00171D76 /* NetworkOperation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B73654C02954229D00171D76 /* NetworkOperation.swift */; };
+		B7EDB6D82954625700F9F73F /* Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDB6D72954625600F9F73F /* Ext.swift */; };
+		B7EDB6DB29548ECC00F9F73F /* CollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B7EDB6D929548ECC00F9F73F /* CollectionViewCell.xib */; };
+		B7EDB6DC29548ECC00F9F73F /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDB6DA29548ECC00F9F73F /* CollectionViewCell.swift */; };
+		B7EDB6DE29548FE400F9F73F /* CircularLoop.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7EDB6DD29548FE400F9F73F /* CircularLoop.swift */; };
+		C1AA8CDCB581312E6E189058 /* Pods_ServerBackground.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FAD7CE5D20E37D0AB67A2500 /* Pods_ServerBackground.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		70A7860EBFA89A828DD65D32 /* Pods-ServerBackground.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerBackground.release.xcconfig"; path = "Target Support Files/Pods-ServerBackground/Pods-ServerBackground.release.xcconfig"; sourceTree = "<group>"; };
 		B71981D82940A1CE0043A149 /* ServerBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ServerBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71981DB2940A1CE0043A149 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B71981DD2940A1CE0043A149 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +42,31 @@
 		B71981E42940A1D30043A149 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B71981E72940A1D30043A149 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B71981E92940A1D30043A149 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B71981F52940A8540043A149 /* DBInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBInterface.swift; sourceTree = "<group>"; };
+		B71981FA2940A8540043A149 /* DBManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DBManager.swift; sourceTree = "<group>"; };
+		B71982062940B95D0043A149 /* StockCategoryModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockCategoryModel.swift; sourceTree = "<group>"; };
+		B71982082940B9780043A149 /* StockPhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockPhotosModel.swift; sourceTree = "<group>"; };
+		B719821F2941912C0043A149 /* ServerBackground-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ServerBackground-Bridging-Header.h"; sourceTree = "<group>"; };
+		B71982202941912D0043A149 /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		B71982222941912D0043A149 /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		B71982232941912D0043A149 /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		B71982242941912E0043A149 /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		B71982252941912E0043A149 /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		B71982262941912E0043A149 /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		B71982272941912E0043A149 /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		B71982282941912E0043A149 /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		B71982292941912E0043A149 /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		B719822A2941912F0043A149 /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		B719822B294191300043A149 /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		B73654BE2954229D00171D76 /* Network.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
+		B73654BF2954229D00171D76 /* StockDownloadManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StockDownloadManager.swift; sourceTree = "<group>"; };
+		B73654C02954229D00171D76 /* NetworkOperation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkOperation.swift; sourceTree = "<group>"; };
+		B7EDB6D72954625600F9F73F /* Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ext.swift; sourceTree = "<group>"; };
+		B7EDB6D929548ECC00F9F73F /* CollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CollectionViewCell.xib; sourceTree = "<group>"; };
+		B7EDB6DA29548ECC00F9F73F /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		B7EDB6DD29548FE400F9F73F /* CircularLoop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularLoop.swift; sourceTree = "<group>"; };
+		F59604E96CCE7770320A335F /* Pods-ServerBackground.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ServerBackground.debug.xcconfig"; path = "Target Support Files/Pods-ServerBackground/Pods-ServerBackground.debug.xcconfig"; sourceTree = "<group>"; };
+		FAD7CE5D20E37D0AB67A2500 /* Pods_ServerBackground.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ServerBackground.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +74,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C1AA8CDCB581312E6E189058 /* Pods_ServerBackground.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		85577830A43342A402D1A0DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F59604E96CCE7770320A335F /* Pods-ServerBackground.debug.xcconfig */,
+				70A7860EBFA89A828DD65D32 /* Pods-ServerBackground.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9AEEA3D515CC5F54721E2531 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FAD7CE5D20E37D0AB67A2500 /* Pods_ServerBackground.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B71981CF2940A1CE0043A149 = {
 			isa = PBXGroup;
 			children = (
 				B71981DA2940A1CE0043A149 /* ServerBackground */,
 				B71981D92940A1CE0043A149 /* Products */,
+				85577830A43342A402D1A0DF /* Pods */,
+				9AEEA3D515CC5F54721E2531 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,7 +119,13 @@
 		B71981DA2940A1CE0043A149 /* ServerBackground */ = {
 			isa = PBXGroup;
 			children = (
+				B73654BD2954226D00171D76 /* ServerSide */,
+				B71981EF2940A8540043A149 /* DataBase */,
+				B71981F52940A8540043A149 /* DBInterface.swift */,
+				B71981FA2940A8540043A149 /* DBManager.swift */,
 				B71981DB2940A1CE0043A149 /* AppDelegate.swift */,
+				B71982062940B95D0043A149 /* StockCategoryModel.swift */,
+				B71982082940B9780043A149 /* StockPhotosModel.swift */,
 				B71981DD2940A1CE0043A149 /* SceneDelegate.swift */,
 				B71981DF2940A1CE0043A149 /* ViewController.swift */,
 				B71981E12940A1CE0043A149 /* Main.storyboard */,
@@ -67,6 +136,39 @@
 			path = ServerBackground;
 			sourceTree = "<group>";
 		};
+		B71981EF2940A8540043A149 /* DataBase */ = {
+			isa = PBXGroup;
+			children = (
+				B71982222941912D0043A149 /* FMDatabase.h */,
+				B71982232941912D0043A149 /* FMDatabase.m */,
+				B71982282941912E0043A149 /* FMDatabaseAdditions.h */,
+				B71982272941912E0043A149 /* FMDatabaseAdditions.m */,
+				B71982202941912D0043A149 /* FMDatabasePool.h */,
+				B71982262941912E0043A149 /* FMDatabasePool.m */,
+				B719822A2941912F0043A149 /* FMDatabaseQueue.h */,
+				B71982242941912E0043A149 /* FMDatabaseQueue.m */,
+				B71982252941912E0043A149 /* FMDB.h */,
+				B71982292941912E0043A149 /* FMResultSet.h */,
+				B719822B294191300043A149 /* FMResultSet.m */,
+				B719821F2941912C0043A149 /* ServerBackground-Bridging-Header.h */,
+			);
+			path = DataBase;
+			sourceTree = "<group>";
+		};
+		B73654BD2954226D00171D76 /* ServerSide */ = {
+			isa = PBXGroup;
+			children = (
+				B7EDB6DD29548FE400F9F73F /* CircularLoop.swift */,
+				B73654BE2954229D00171D76 /* Network.swift */,
+				B73654C02954229D00171D76 /* NetworkOperation.swift */,
+				B73654BF2954229D00171D76 /* StockDownloadManager.swift */,
+				B7EDB6D72954625600F9F73F /* Ext.swift */,
+				B7EDB6DA29548ECC00F9F73F /* CollectionViewCell.swift */,
+				B7EDB6D929548ECC00F9F73F /* CollectionViewCell.xib */,
+			);
+			path = ServerSide;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B71981EC2940A1D30043A149 /* Build configuration list for PBXNativeTarget "ServerBackground" */;
 			buildPhases = (
+				1667162E47528427C1F1EE44 /* [CP] Check Pods Manifest.lock */,
 				B71981D42940A1CE0043A149 /* Sources */,
 				B71981D52940A1CE0043A149 /* Frameworks */,
 				B71981D62940A1CE0043A149 /* Resources */,
+				A022B4B7261DE54728C3B7A0 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -99,6 +203,7 @@
 				TargetAttributes = {
 					B71981D72940A1CE0043A149 = {
 						CreatedOnToolsVersion = 13.4.1;
+						LastSwiftMigration = 1340;
 					};
 				};
 			};
@@ -127,20 +232,78 @@
 			files = (
 				B71981E82940A1D30043A149 /* LaunchScreen.storyboard in Resources */,
 				B71981E52940A1D30043A149 /* Assets.xcassets in Resources */,
+				B7EDB6DB29548ECC00F9F73F /* CollectionViewCell.xib in Resources */,
 				B71981E32940A1CE0043A149 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1667162E47528427C1F1EE44 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ServerBackground-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A022B4B7261DE54728C3B7A0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServerBackground/Pods-ServerBackground-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ServerBackground/Pods-ServerBackground-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ServerBackground/Pods-ServerBackground-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B71981D42940A1CE0043A149 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B73654C22954229D00171D76 /* StockDownloadManager.swift in Sources */,
+				B73654C12954229D00171D76 /* Network.swift in Sources */,
+				B7EDB6DC29548ECC00F9F73F /* CollectionViewCell.swift in Sources */,
 				B71981E02940A1CE0043A149 /* ViewController.swift in Sources */,
 				B71981DC2940A1CE0043A149 /* AppDelegate.swift in Sources */,
+				B71982022940A8540043A149 /* DBManager.swift in Sources */,
+				B7EDB6D82954625700F9F73F /* Ext.swift in Sources */,
+				B71982092940B9780043A149 /* StockPhotosModel.swift in Sources */,
+				B71982072940B95D0043A149 /* StockCategoryModel.swift in Sources */,
+				B73654C32954229D00171D76 /* NetworkOperation.swift in Sources */,
 				B71981DE2940A1CE0043A149 /* SceneDelegate.swift in Sources */,
+				B7198230294191300043A149 /* FMResultSet.m in Sources */,
+				B7EDB6DE29548FE400F9F73F /* CircularLoop.swift in Sources */,
+				B71982002940A8540043A149 /* DBInterface.swift in Sources */,
+				B719822F294191300043A149 /* FMDatabaseAdditions.m in Sources */,
+				B719822E294191300043A149 /* FMDatabasePool.m in Sources */,
+				B719822C294191300043A149 /* FMDatabase.m in Sources */,
+				B719822D294191300043A149 /* FMDatabaseQueue.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,9 +445,11 @@
 		};
 		B71981ED2940A1D30043A149 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F59604E96CCE7770320A335F /* Pods-ServerBackground.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4YSC6LS3SY;
@@ -303,6 +468,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.irisstudio.ServerBackground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ServerBackground/DataBase/ServerBackground-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,9 +477,11 @@
 		};
 		B71981EE2940A1D30043A149 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70A7860EBFA89A828DD65D32 /* Pods-ServerBackground.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 4YSC6LS3SY;
@@ -331,6 +500,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.irisstudio.ServerBackground;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ServerBackground/DataBase/ServerBackground-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
